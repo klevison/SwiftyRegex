@@ -11,7 +11,7 @@ import PackageDescription
 let package = Package(
     name: "SwiftyRegex",
     targets: [
-        Target(name:"SwiftyRegexTests", dependencies: [.Target(name: "SwiftyRegex")]),
+        //Target(name:"SwiftyRegexTests", dependencies: [.Target(name: "SwiftyRegex")]),
         Target(name:"SwiftyRegex")
     ],
     dependencies: [
